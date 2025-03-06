@@ -1,0 +1,31 @@
+
+<div >
+    <header>
+        <h1>🔥 Autos Deportivos de Lujo 🔥</h1>
+
+    </header>
+
+    <section class="login-container">
+        <h2>🔑 Iniciar Sesión</h2>
+        <form  #loginForm="ngForm" (ngSubmit)="login(loginForm)" class="login-form">
+            <div class="form-group">
+                <label for="email">📧 Correo Electrónico</label>
+                <input type="email" id="email" name="email"  [(ngModel)]="email" placeholder="tuemail@ejemplo.com" required>
+            </div>
+            <div class="form-group">
+                <label for="password">🔒 Contraseña</label>
+                <input type="password" id="password"  name="password" [(ngModel)]="password" placeholder="********" required>
+            </div>
+            <div class="form-remember">
+                <input type="checkbox" id="remember">
+                <label for="remember">Recordar siempre</label>
+            </div>
+            <button type="submit" class="btn"  >Iniciar Sesión</button>
+        </form>
+        <p class="register-link">¿No tienes cuenta? <a href="#">Regístrate aquí</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Venta de Autos Deportivos. Todos los derechos reservados.</p>
+    </footer>
+</div>

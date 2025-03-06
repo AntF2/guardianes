@@ -1,0 +1,121 @@
+/* Estilos Generales */
+div {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: white;
+}
+
+header {
+  background: #d32f2f;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Sección Categorías */
+.categories {
+  padding: 50px;
+}
+
+.categories h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #ff5722;
+}
+
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.category {
+  width: 45%;
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 87, 34, 0.5);
+}
+
+.category h3 {
+  text-align: center;
+  color: #ff5722;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.auto-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.auto-card {
+  width: 160px;
+  text-align: center;
+  background: #222;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 87, 34, 0.5);
+}
+
+.auto-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.auto-card h4 {
+  color: #ff9800;
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.auto-card p {
+  font-size: 1em;
+  color: #fff;
+}
+
+.auto-card .btn {
+  background-color: #ff5722;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.auto-card .btn:hover {
+  background-color: #e64a19;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #d32f2f;
+  margin-top: 20px;
+}
