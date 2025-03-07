@@ -1,12 +1,12 @@
 {
   "usuarios": [
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Miguel",
       "direccion": "Quito"
     },
     {
-      "id": 2,
+      "id": "2",
       "email": "Miguel",
       "direccion": "Ferroviaria"
     }
@@ -15,27 +15,28 @@
     {
       "email": "Miguel@gmail.com",
       "password": "$2a$10$IeqgrH9RNv/Bf2oG/xInaOi.9qYtbc4HPhBga5zm72D4NJako44EW",
-      "id": 100
+      "id": "100"
     },
     {
       "email": "lomasbueno5000@gmail.com",
       "password": "$2a$10$uw6EiN.bEa5LAG7vPkEB3O9fuuJi1mJ09A8yQi20f5E4rllmr9OUy",
-      "id": 101
+      "id": "101"
     },
     {
       "email": "Karla@gmail.com",
       "password": "$2a$10$ftvho54yxfCL8ailK55IbuFBDCMRARQXx8.oN3ZqF6IouXa0x4In2",
-      "id": 102
+      "id": "102"
     },
     {
       "email": "afranco12004@gmail.com",
       "password": "$2a$10$z1EFXjbtcxyFCG7irgIlKO9CcPJOa6xM7ZLMZppot8rHtmpW36apC",
-      "id": 103
+      "id": "103"
     },
     {
       "email": "ant@gmail.com",
       "password": "$2a$10$S9ecXJkjted4RktJ6UUcU.QnTSK44Ow/OBdDleT9ePinMFE87oeya",
-      "id": 104
+      "id": "104"
     }
+    
   ]
 }

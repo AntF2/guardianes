@@ -19,9 +19,9 @@ export class FormularioLoginComponent {
   password: any;
 
   login(loginForm: any) {
-    //  console.log(loginForm.value);
+    console.log(loginForm.value);
     this.sercivio.postLogin(loginForm.value).subscribe(acceso=>{
-      //console.log(acceso);
+      console.log(acceso);
       let token = acceso.accesstoken
       if(token! = ''){
       localStorage.setItem("login", "true");
